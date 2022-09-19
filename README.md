@@ -7,8 +7,6 @@ Passport photo services can be expensive complex process. Obviously, not all pho
 
 This app allows users to create passport photos with automatic picture size and rotation cropped to comply with the standards accepted in most countries. Users get a tiled photo in your required print format (e.g. 4"x6" or 5"x7") with the appropriate resolution ready for printing.
 
-
-<br>
 <br>
 
 # Why IPhoto
@@ -25,31 +23,31 @@ a) Asymmetric shadow on the left, b) Inhomogeneous background, c) Body parts
 
 a) Compliant portrait, b) Invisible crown, c) Invisible chin, d) Invisible crown and chin.
 
+<br>
+
+# Issues to be addressed
+
+* Photo/Image should meet 65+ parameters in-order to be a valid photo/image. 
+(Pose angle, Lighting conditions, Background colour, Saturation, Symmetry etc.)
+
+* High-definition cameras to provide the required resolution of the image.
+
+* Real-time image analysis and processing.
+
+* Real-time feedback should be provided to the user. 
 
 <br>
-<br>
+
 # Proposed System
 
+Below is a diagram which describes the implementation of the system. 
 
 
 ![222](https://user-images.githubusercontent.com/86109995/191013628-266eadcf-1492-46e7-9d10-10296b79d84d.jpg)
  
-
 <br>
-<br>
-# 
 
-* Photo/Image should meet 65+ parameters in-order to be a valid photo/image 
-(Pose angle, Lighting conditions, Background colour, Saturation, Symmetry etc. )
-* High-definition cameras to provide the required resolution of the image.
-* Real-time image analysis and processing
-* Real-time feedback should be provided to the user 
-
-
-<br>
-<br>
 # Project Tasks Plan
-
 
 Tasks:
 
@@ -63,7 +61,7 @@ Tasks:
  
  * Verifies if face does not contain shadows -> TensorFlow, OpenCv,
  
- TBD: verifies if eye pupils are directed towards camera,
+    TBD: verifies if eye pupils are directed towards camera,
  
  * Verifies if there are no objects partially covering face -> OpenCV,
  
