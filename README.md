@@ -30,11 +30,11 @@ a) Compliant portrait, b) Invisible crown, c) Invisible chin, d) Invisible crown
 * Photo/Image should meet 65+ parameters in-order to be a valid photo/image. 
 (Pose angle, Lighting conditions, Background colour, Saturation, Symmetry etc.)
 
-* High-definition cameras to provide the required resolution of the image.
+* High-definition cameras to obtain the required resolution of the image.
 
 * Real-time image analysis and processing.
 
-* Real-time feedback should be provided to the user. 
+* Providing real-time feedback to the user on how to pose for the photo. 
 
 <br>
 
@@ -46,28 +46,29 @@ Below is a diagram which describes the implementation of the system.
 ![222](https://user-images.githubusercontent.com/86109995/191013628-266eadcf-1492-46e7-9d10-10296b79d84d.jpg)
  
 <br>
+Once sufficient data with required parameters gathered, the dataset is fowards towards a recognizing server to train and test by a Deep Neural Network model. After sufficient accuracy is obtained by the system, the app will be used to capture and recognize photos suitable for a passport.
 
-# Project Tasks Plan
+# Project Plan
 
-Tasks:
+Tasks/Apllications to be implemented in the upcoming weeks:
 
- * Detects face -> ML Kit Face Detection,
+ * Detects face - ML Kit Face Detection,
  
- * Verifies if the head is oriented straight, eyes are open and facial expression is neutral -> ML Kit Face Detection,
+ * Verifies if the head is oriented straight, eyes are open and facial expression is neutral - ML Kit Face Detection,
  
- * Segments person from the background -> TensorFlow lite munet model,
+ * Segments person from the background - TensorFlow lite munet model,
  
- * Verifies if background is plain and bright -> OpenCV,
+ * Verifies if background is plain and bright - OpenCV,
  
- * Verifies if face does not contain shadows -> TensorFlow, OpenCv,
+ * Verifies if face does not contain shadows - TensorFlow, OpenCv,
  
-    TBD: verifies if eye pupils are directed towards camera,
+    TBD: Verifies if eye pupils are directed towards camera,
  
- * Verifies if there are no objects partially covering face -> OpenCV,
+ * Verifies if there are no objects partially covering face - OpenCV,
  
- * After photo capturing attempts to improve face shadows -> TensorFlow lite GAN pix2pix model.
+ * After photo capturing attempts to improve face shadows - TensorFlow lite GAN pix2pix model.
  
- * After photo capturing attempts to improve background -> OpenCv,
+ * After photo capturing attempts to improve background - OpenCv,
  
  * Adjust the photo to correct format and saves it to the phone,
  
