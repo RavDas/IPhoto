@@ -48,6 +48,8 @@ Below is a diagram which describes the implementation of the system.
 <br>
 Once sufficient data with required parameters gathered, the dataset is fowards towards a recognizing server to train and test by a Deep Neural Network model. After sufficient accuracy is obtained by the system, the app will be used to capture and recognize photos suitable for a passport.
 
+<br>
+
 # Project Plan
 
 Tasks/Apllications to be implemented in the upcoming weeks:
