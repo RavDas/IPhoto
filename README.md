@@ -1,7 +1,7 @@
 # IPhoto
 Semester 5 - CS3282 - Industrial Computer Engineering Project
 
-# Introduction
+## Introduction
 
 Passport photo services can be expensive complex process. Obviously, not all photos taken at home with a smartphone camera will have the quality to meet photo ID requirements of International Civil Aviation Organization (ICAO) standards., but if you are on the budget and/or have the time to ensure you capture a picture of yourself with good resolution, proper focus and illumination, then this app will do the maths to prepare an output tiled photo ready to be printed for less than a dollar at your closest photo center. 
 
@@ -9,7 +9,7 @@ This app allows users to create passport photos with automatic picture size and 
 
 <br>
 
-# Why IPhoto
+## Why IPhoto
 
 Below are images taken labelled with the reasons why passport images should be taken with proper standards.
 <br>
@@ -25,7 +25,7 @@ a) Compliant portrait, b) Invisible crown, c) Invisible chin, d) Invisible crown
 
 <br>
 
-# Issues to be addressed
+## Issues to be addressed
 
 * Photo/Image should meet 65+ parameters in-order to be a valid photo/image. 
 (Pose angle, Lighting conditions, Background colour, Saturation, Symmetry etc.)
@@ -38,7 +38,7 @@ a) Compliant portrait, b) Invisible crown, c) Invisible chin, d) Invisible crown
 
 <br>
 
-# Proposed System
+## Proposed System
 
 Below is a diagram which describes the implementation of the system. 
 
@@ -50,7 +50,7 @@ Once sufficient data with required parameters gathered, the dataset is fowards t
 
 <br>
 
-# Project Plan
+## Project Plan
 
 Tasks/Apllications to be implemented in the upcoming weeks:
 
