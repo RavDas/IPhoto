@@ -1,6 +1,8 @@
 # IPhoto
 Semester 5 - CS3282 - Industrial Computer Engineering Project
 
+<br>
+
 ## Introduction
 
 Passport photo services can be expensive complex process. Obviously, not all photos taken at home with a smartphone camera will have the quality to meet photo ID requirements of International Civil Aviation Organization (ICAO) standards., but if you are on the budget and/or have the time to ensure you capture a picture of yourself with good resolution, proper focus and illumination, then this app will do the maths to prepare an output tiled photo ready to be printed for less than a dollar at your closest photo center. 
@@ -47,6 +49,7 @@ Below is a diagram which describes the implementation of the system.
  
 <br>
 Once sufficient data with required parameters gathered, the dataset is fowards towards a recognizing server to train and test by a Deep Neural Network model. After sufficient accuracy is obtained by the system, the app will be used to capture and recognize photos suitable for a passport.
+
 
 <br>
 
